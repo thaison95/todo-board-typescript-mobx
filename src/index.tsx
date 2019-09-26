@@ -5,6 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { Provider } from 'mobx-react';
 import { TodoStore } from './stores/TodoStore';
+import "antd/dist/antd.css";
 
 ReactDOM.render(
     <Provider todoStore={new TodoStore()}>
