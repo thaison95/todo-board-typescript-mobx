@@ -3,6 +3,10 @@ h2 {
 }
 .board {
   padding: 16px;
+  overflow-x: auto;
+}
+.ant-row {
+  min-width: 600px;
 }
 .col-contain {
   border: 1px solid #eeeeee;
